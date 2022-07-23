@@ -3,7 +3,17 @@
 
 @font-face {
   font-family: Anton;
-  src: url("Anton-Regular.ttf");
+  src: url("fonts/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/RobotoCondensed-Regular.ttf");
 }
 
 body {
@@ -98,7 +108,7 @@ body {
 .bookmark-set{
     padding: 1em;
     border-radius: 6px;
-    font-family: "Roboto Mono";
+    font-family: "Roboto Condensed";
     font-size: .85rem;
     width: 25%;
     height: 18em;
